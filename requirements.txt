@@ -1,0 +1,7 @@
+-r requirements-matrixportal_m4.txt
+
+# Debounce buttons
+adafruit-circuitpython-debouncer
+
+# NTP support
+adafruit-circuitpython-ntp
