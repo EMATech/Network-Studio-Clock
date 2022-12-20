@@ -1,19 +1,8 @@
-# See https://learn.adafruit.com/adafruit-matrixportal-m4?view=all#adafruit-circuitpython-bundle-3072829-1
+# SPDX-FileCopyrightText: 2021-2022 Raphaël Doursenaud <rdoursenaud@free.fr>
+# SPDX-License-Identifier: MIT
 
-# Reads and parses font files.
-adafruit-circuitpython-bitmap-font
-
-# Low level support for I2C/SPI.
-adafruit-circuitpython-busdevice
-
-# Displays text on the screen.
-adafruit-circuitpython-display-text
-
-# Internet access via the ESP32 using (you guessed it!) SPI transport. You need this for anything Internet.
-adafruit-circuitpython-esp32spi
-
-# Helps connect the PyPortal to the free data logging and viewing service Adafruit IO.
-adafruit-circuitpython-adafruitio
+# Basic requirements for the board.
+# See https://learn.adafruit.com/adafruit-matrixportal-m4?view=all#adafruit-circuitpython-bundle
 
 # Main library used with the MatrixPortal.
 adafruit-circuitpython-matrixportal
@@ -21,15 +10,32 @@ adafruit-circuitpython-matrixportal
 # Base library that adafruit_matrixportal is built on top of.
 adafruit-circuitpython-portalbase
 
-# Allows you to create fake HTTP requests by using local files.
-adafruit-circuitpython-fakerequests
-
-# Used for the onboard accelerometer to detect the orientation of the MatrixPortal
-adafruit-circuitpython-lis3dh
-
-# Allows us to perform HTTP requests and get responses back from servers. GET/POST/PUT/PATCH - they're all in here!
-adafruit-circuitpython-requests
+# Internet access via the ESP32 using (you guessed it!) SPI transport. You need this for anything Internet.
+adafruit-circuitpython-esp32spi
 
 # For controlling the onboard neopixel.
 adafruit-circuitpython-neopixel
 
+# Low level support for I2C/SPI.
+adafruit-circuitpython-busdevice
+
+# Allows us to perform HTTP requests and get responses back from servers. GET/POST/PUT/PATCH - they're all in here!
+adafruit-circuitpython-requests
+
+# Allows you to create fake HTTP requests by using local files.
+adafruit-circuitpython-fakerequests
+
+# Helps connect the PyPortal to the free data logging and viewing service Adafruit IO.
+adafruit-circuitpython-adafruitio
+
+# Reads and parses font files.
+adafruit-circuitpython-bitmap-font
+
+# Displays text on the screen.
+adafruit-circuitpython-display-text
+
+# Used for the onboard accelerometer to detect the orientation of the MatrixPortal
+adafruit-circuitpython-lis3dh
+
+# Used for communicating with MQTT servers.
+adafruit-circuitpython-minimqtt

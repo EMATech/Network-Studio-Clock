@@ -1,1 +1,5 @@
-secrets.py
+.idea
+# Precompiled libraries
+.mpy
+# WiFi details goes in this file
+src/secrets.py

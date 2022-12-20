@@ -1,7 +1,7 @@
--r requirements-matrixportal_m4.txt
+# SPDX-FileCopyrightText: 2021-2022 Raphaël Doursenaud <rdoursenaud@free.fr>
+# SPDX-License-Identifier: MIT
 
-# Debounce buttons
-adafruit-circuitpython-debouncer
+# Import the board's minimal requirements
+-r requirements-circuitpython.txt
 
-# NTP support
-adafruit-circuitpython-ntp
+circuitpython-stubs
